@@ -623,7 +623,7 @@ $(function() {
       
       function dribbble(){
         shotpage ++;
-        $.jribbble.getShotsByPlayerId('travisneilson', function(playerShots) {
+        $.jribbble.getShotsByPlayerId('eventuserum', function(playerShots) {
           for (idx in playerShots.shots){
             var shot = playerShots.shots[idx];
             img = document.createElement('img');
