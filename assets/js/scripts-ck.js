@@ -537,7 +537,7 @@ $(function() {
     
     function clickedArticles() {
       arrHome = 2;
-      $('.icon-caret-left').css('top', arrHome + 'px' );
+      $('.icon-diamonds').css('top', arrHome + 'px' );
       $('.articles-link').parent().addClass('active').siblings().removeClass('active');
       $('.home-wrap > div').fadeOut('fast').filter('.loop-wrap').fadeIn('fast').masonry( 'reload' );
       window.location = '#articles';
@@ -552,7 +552,7 @@ $(function() {
     
     function clickedWork() {
       arrHome = 59;
-      $('.icon-caret-left').css('top', arrHome + 'px' );
+      $('.icon-diamonds').css('top', arrHome + 'px' );
       $('.work-link').parent().addClass('active').siblings().removeClass('active');
       $('.work-wrap .projects, .work-wrap .shots').empty();
       showWork();
@@ -567,7 +567,7 @@ $(function() {
     
     function clickedNotes() {
       arrHome = 31;
-      $('.icon-caret-left').css('top', arrHome + 'px' );
+      $('.icon-diamonds').css('top', arrHome + 'px' );
       $('.notes-link').parent().addClass('active').siblings().removeClass('active');
       
       $('.home-wrap > div').fadeOut('fast').filter('.notes-wrap').fadeIn('fast');
@@ -582,7 +582,7 @@ $(function() {
     
     function clickedPhotos() {
       arrHome = 60;
-      $('.icon-caret-left').css('top', arrHome + 'px' );
+      $('.icon-diamonds').css('top', arrHome + 'px' );
       $('.photos-link').parent().addClass('active').siblings().removeClass('active');
       $('.home-wrap > div').fadeOut('fast').filter('.instagram').fadeIn('fast');
       window.location = '#photos';
@@ -597,7 +597,7 @@ $(function() {
     
     function clickedAbout() {
       arrHome = 88;
-      $('.icon-caret-left').css('top', arrHome + 'px' );
+      $('.icon-diamonds').css('top', arrHome + 'px' );
       $('.about-link').parent().addClass('active').siblings().removeClass('active');
       $('.home-wrap > div').fadeOut('fast').filter('.about-wrap').fadeIn('fast');
       window.location = '#about';

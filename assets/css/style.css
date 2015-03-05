@@ -53,7 +53,7 @@
 .icon-arrow-left:before {
   content: "î€‚"; }
 
-.icon-caret-left:before {
+.icon-diamonds:before {
   content: "î€ƒ"; }
 
 .icon-quotes-left:before {
@@ -393,7 +393,7 @@ input {
         color: #bbb; }
     .home header nav {
       position: relative; }
-      .home header nav .icon-caret-left {
+      .home header nav .icon-diamonds {
         position: absolute;
         top: 3px;
         right: 10px;
@@ -1307,7 +1307,7 @@ nav.tn-nav-wrap {
     padding: 10px;
     display: inline-block; }
 
-  .home header nav span.icon-caret-left {
+  .home header nav span.icon-diamonds {
     display: none; }
 
   .home header .elsewheres {
