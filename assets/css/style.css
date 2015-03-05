@@ -50,8 +50,8 @@
 .icon-arrow-right2:before {
   content: "\ea3c"; }
 
-.icon-arrow-left:before {
-  content: "î€‚"; }
+.icon-arrow-left2:before {
+  content: "\ea40"; }
 
 .icon-diamonds:before {
   content: "\e919"; }
@@ -60,58 +60,58 @@
   content: "\e977"; }
 
 .icon-envelope:before {
-  content: "ïƒ "; }
+  content: "\e601 "; }
 
-.icon-envelope-alt:before {
-  content: "ï‚™"; }
+.icon-envelope2:before {
+  content: "\e602"; }
 
-.icon-twitter:before {
-  content: "ï‚š"; }
+.icon-twitter3:before {
+  content: "\ea93"; }
 
-.icon-facebook:before {
-  content: "ï‚›"; }
+.icon-facebook3:before {
+  content: "\ea8e"; }
 
 .icon-linkedin:before {
-  content: "ïƒ¡"; }
+  content: "\eac8"; }
 
-.icon-dribbble:before {
-  content: "î€„"; }
+.icon-dribbble3:before {
+  content: "\eaa8"; }
 
 .icon-behance:before {
   content: "î€…"; }
 
-.icon-google-plus:before {
-  content: "ïƒ™"; }
+.icon-google-plus3:before {
+  content: "\ea8a"; }
 
-.icon-github:before {
-  content: "ïƒ’"; }
+.icon-github5:before {
+  content: "\eab1"; }
 
 .icon-github-2:before {
-  content: "ïƒ•"; }
+  content: "\eab5"; }
 
 .icon-pinterest:before {
-  content: "î€†"; }
+  content: "\ead0"; }
 
 .icon-instagram:before {
   content: "î€‡"; }
 
-.icon-github-3:before {
-  content: "î€ˆ"; }
+.icon-github3:before {
+  content: "\eab3"; }
 
-.icon-feed:before {
-  content: "ï€"; }
+.icon-feed2:before {
+  content: "\ea94"; }
 
-.icon-ok:before {
-  content: "ï€Œ"; }
+.icon-checkmark:before {
+  content: "\ea10"; }
 
-.icon-remove:before {
-  content: "î€‰"; }
+.icon-cross:before {
+  content: "\ea0f"; }
 
-.icon-reply:before {
-  content: "ï„’"; }
+.icon-pencil2:before {
+  content: "\e906"; }
 
-.icon-happy:before {
-  content: "î€Š"; }
+.icon-chat:before {
+  content: "\e603"; }
 
 /* Variables
  * ------------------------------------	 */
@@ -516,7 +516,7 @@ input {
         font-weight: normal;
         font-style: normal; }
       .home-wrap .loop-wrap .unit .icon-arrow-right2,
-      .home-wrap .loop-wrap .unit .icon-ok {
+      .home-wrap .loop-wrap .unit .icon-checkmark {
         display: block;
         height: 16px;
         width: 19px;
@@ -1047,7 +1047,7 @@ nav.tn-nav-wrap {
       text-transform: none;
       font-style: italic;
       font-size: 13px; }
-      .title-string p.back-message .icon-reply {
+      .title-string p.back-message .icon-pencil2 {
         margin-right: 8px; }
 
 .next-prev-btn {
