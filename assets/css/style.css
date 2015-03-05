@@ -44,8 +44,8 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-.icon-tn-logo:before {
-  content: "Ms"; }
+.icon-logo:before {
+  content: "\e600"; }
 
 .icon-arrow-right:before {
   content: "î€€"; }
@@ -371,7 +371,7 @@ input {
     width: 195px;
     text-align: right;
     z-index: 3; }
-    .home header .icon-tn-logo {
+    .home header .icon-logo {
       display: block;
       margin-bottom: 30px;
       text-align: center;
@@ -1107,7 +1107,7 @@ nav.tn-nav-wrap {
 .mailinglist-overlay.hide {
   display: none; }
 
-.mailinglist-overlay .icon-tn-logo {
+.mailinglist-overlay .icon-logo {
   text-align: center;
   padding-top: 20%;
   font-size: 80px;
@@ -1265,7 +1265,7 @@ nav.tn-nav-wrap {
     width: 100%;
     text-align: center; }
 
-  .home header .icon-tn-logo {
+  .home header .icon-logo {
     height: 60px;
     font-size: 90px;
     width: auto;
