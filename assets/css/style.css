@@ -47,8 +47,8 @@
 .icon-logo:before {
   content: "\e600"; }
 
-.icon-arrow-right:before {
-  content: "î€€"; }
+.icon-arrow-right2:before {
+  content: "\ea3c"; }
 
 .icon-arrow-left:before {
   content: "î€‚"; }
@@ -497,7 +497,7 @@ input {
         color: #21a1e1; }
         .home-wrap .loop-wrap .unit:hover .cover-image, .home-wrap .loop-wrap .unit:focus .cover-image {
           top: 40px; }
-      .home-wrap .loop-wrap .unit:visited .icon-arrow-right:before {
+      .home-wrap .loop-wrap .unit:visited .icon-arrow-right2:before {
         color: #ccc; }
       .home-wrap .loop-wrap .unit h2 {
         color: #444;
@@ -515,7 +515,7 @@ input {
         margin: 3px 5px 0px 7px;
         font-weight: normal;
         font-style: normal; }
-      .home-wrap .loop-wrap .unit .icon-arrow-right,
+      .home-wrap .loop-wrap .unit .icon-arrow-right2,
       .home-wrap .loop-wrap .unit .icon-ok {
         display: block;
         height: 16px;
