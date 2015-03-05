@@ -45,7 +45,11 @@
   -webkit-font-smoothing: antialiased; }
 
 .icon-tn-logo:before {
-  content: "î€"; }
+  content: "MS"; }
+
+.icon-diamonds:before {
+   content: "\e919";
+}
 
 .icon-arrow-right:before {
   content: "î€€"; }
