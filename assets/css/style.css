@@ -45,11 +45,7 @@
   -webkit-font-smoothing: antialiased; }
 
 .icon-tn-logo:before {
-  content: "MS"; }
-
-.icon-diamonds:before {
-   content: "\e919";
-}
+  content: "Ms"; }
 
 .icon-arrow-right:before {
   content: "î€€"; }
@@ -57,7 +53,7 @@
 .icon-arrow-left:before {
   content: "î€‚"; }
 
-.icon-diamonds:before {
+.icon-caret-left:before {
   content: "î€ƒ"; }
 
 .icon-quotes-left:before {
@@ -397,7 +393,7 @@ input {
         color: #bbb; }
     .home header nav {
       position: relative; }
-      .home header nav .icon-diamonds {
+      .home header nav .icon-caret-left {
         position: absolute;
         top: 3px;
         right: 10px;
@@ -1311,7 +1307,7 @@ nav.tn-nav-wrap {
     padding: 10px;
     display: inline-block; }
 
-  .home header nav span.icon-diamonds {
+  .home header nav span.icon-caret-left {
     display: none; }
 
   .home header .elsewheres {
