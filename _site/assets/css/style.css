@@ -17,7 +17,10 @@
 @font-face {
   font-family: "icomoon";
   src: url("fonts/icomoon.eot");
-  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.svg#icomoon") format("svg");
+  src: url("fonts/icomoon.eot?#iefix") format("embedded-opentype"), 
+  url("fonts/icomoon.woff") format("woff"), 
+  url("fonts/icomoon.ttf") format("truetype"), 
+  url("fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [data-icon]:before {
@@ -41,74 +44,74 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-.icon-tn-logo:before {
-  content: "î€"; }
+.icon-logo:before {
+  content: "\e600"; }
 
-.icon-arrow-right:before {
-  content: "î€€"; }
+.icon-arrow-right2:before {
+  content: "\ea3c"; }
 
-.icon-arrow-left:before {
-  content: "î€‚"; }
+.icon-arrow-left2:before {
+  content: "\ea40"; }
 
-.icon-caret-left:before {
-  content: "î€ƒ"; }
+.icon-diamonds:before {
+  content: "\e919"; }
 
 .icon-quotes-left:before {
-  content: "ï€ƒ"; }
+  content: "\e977"; }
 
 .icon-envelope:before {
-  content: "ïƒ "; }
+  content: "\e601 "; }
 
-.icon-envelope-alt:before {
-  content: "ï‚™"; }
+.icon-envelope2:before {
+  content: "\e602"; }
 
-.icon-twitter:before {
-  content: "ï‚š"; }
+.icon-twitter3:before {
+  content: "\ea93"; }
 
-.icon-facebook:before {
-  content: "ï‚›"; }
+.icon-facebook3:before {
+  content: "\ea8e"; }
 
 .icon-linkedin:before {
-  content: "ïƒ¡"; }
+  content: "\eac8"; }
 
-.icon-dribbble:before {
-  content: "î€„"; }
+.icon-dribbble3:before {
+  content: "\eaa8"; }
 
 .icon-behance:before {
   content: "î€…"; }
 
-.icon-google-plus:before {
-  content: "ïƒ™"; }
+.icon-google-plus3:before {
+  content: "\ea8a"; }
 
-.icon-github:before {
-  content: "ïƒ’"; }
+.icon-github5:before {
+  content: "\eab1"; }
 
 .icon-github-2:before {
-  content: "ïƒ•"; }
+  content: "\eab5"; }
 
 .icon-pinterest:before {
-  content: "î€†"; }
+  content: "\ead0"; }
 
 .icon-instagram:before {
   content: "î€‡"; }
 
-.icon-github-3:before {
-  content: "î€ˆ"; }
+.icon-github3:before {
+  content: "\eab3"; }
 
-.icon-feed:before {
-  content: "ï€"; }
+.icon-feed2:before {
+  content: "\ea94"; }
 
-.icon-ok:before {
-  content: "ï€Œ"; }
+.icon-checkmark:before {
+  content: "\ea10"; }
 
-.icon-remove:before {
-  content: "î€‰"; }
+.icon-cross:before {
+  content: "\ea0f"; }
 
-.icon-reply:before {
-  content: "ï„’"; }
+.icon-pencil2:before {
+  content: "\e906"; }
 
-.icon-happy:before {
-  content: "î€Š"; }
+.icon-chat:before {
+  content: "\e603"; }
 
 /* Variables
  * ------------------------------------	 */
@@ -368,7 +371,7 @@ input {
     width: 195px;
     text-align: right;
     z-index: 3; }
-    .home header .icon-tn-logo {
+    .home header .icon-logo {
       display: block;
       margin-bottom: 30px;
       text-align: center;
@@ -390,7 +393,7 @@ input {
         color: #bbb; }
     .home header nav {
       position: relative; }
-      .home header nav .icon-caret-left {
+      .home header nav .icon-diamonds {
         position: absolute;
         top: 3px;
         right: 10px;
@@ -417,21 +420,21 @@ input {
       font-size: 11px; }
       .home header .elsewheres a {
         font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
-    .home header .mailinglist-small {
+    .home header .icon-envelope2 {
       padding: 30px;
       position: relative; }
-      .home header .mailinglist-small input[type="email"] {
+      .home header .icon-envelope2 input[type="email"] {
         width: 125px;
         border: 1px solid #ddd;
         padding: 3px 5px;
         text-align: right;
         -webkit-font-smoothing: antialiased;
         border-radius: 2px; }
-        .home header .mailinglist-small input[type="email"]:focus {
+        .home header .icon-envelope2 input[type="email"]:focus {
           outline: none;
           border-color: #21a1e1; }
-      .home header .mailinglist-small:before {
-        content: "ïƒ ";
+      .home header .icon-envelope2:before {
+        content: "\e601 ";
         font-family: "icomoon";
         speak: none;
         font-style: normal;
@@ -443,9 +446,9 @@ input {
         position: absolute;
         top: 35px;
         left: 38px; }
-      .home header .mailinglist-small.focused:before {
-        content: "î€Š"; }
-      .home header .mailinglist-small.hide-face:before {
+      .home header .icon-envelope.focused:before {
+        content: "/e602"; }
+      .home header .icon-envelope2.hide-face:before {
         display: none; }
 
 .home-wrap {
@@ -494,7 +497,7 @@ input {
         color: #21a1e1; }
         .home-wrap .loop-wrap .unit:hover .cover-image, .home-wrap .loop-wrap .unit:focus .cover-image {
           top: 40px; }
-      .home-wrap .loop-wrap .unit:visited .icon-arrow-right:before {
+      .home-wrap .loop-wrap .unit:visited .icon-arrow-right2:before {
         color: #ccc; }
       .home-wrap .loop-wrap .unit h2 {
         color: #444;
@@ -512,8 +515,8 @@ input {
         margin: 3px 5px 0px 7px;
         font-weight: normal;
         font-style: normal; }
-      .home-wrap .loop-wrap .unit .icon-arrow-right,
-      .home-wrap .loop-wrap .unit .icon-ok {
+      .home-wrap .loop-wrap .unit .icon-arrow-right2,
+      .home-wrap .loop-wrap .unit .icon-checkmark {
         display: block;
         height: 16px;
         width: 19px;
@@ -1044,7 +1047,7 @@ nav.tn-nav-wrap {
       text-transform: none;
       font-style: italic;
       font-size: 13px; }
-      .title-string p.back-message .icon-reply {
+      .title-string p.back-message .icon-pencil2 {
         margin-right: 8px; }
 
 .next-prev-btn {
@@ -1079,13 +1082,13 @@ nav.tn-nav-wrap {
         line-height: 1;
         -webkit-font-smoothing: antialiased; }
 
-.prev-post-link a:before {
+.icon-arrow-right2 a:before {
   content: "î€‚"; }
-  .prev-post-link a:before:hover {
+  .icon-arrow-right2 a:before:hover {
     background-position: 0px 0px; }
 
 .next-post-link a:before {
-  content: "î€€"; }
+  content: "\ea3c"; }
   .next-post-link a:before:hover {
     background-position: -19px 0px; }
 
@@ -1104,7 +1107,7 @@ nav.tn-nav-wrap {
 .mailinglist-overlay.hide {
   display: none; }
 
-.mailinglist-overlay .icon-tn-logo {
+.mailinglist-overlay .icon-logo {
   text-align: center;
   padding-top: 20%;
   font-size: 80px;
@@ -1209,10 +1212,10 @@ nav.tn-nav-wrap {
   color: #fff;
   background-color: #666; }
 
-.mailinglist-small {
+.icon-envelope2 {
   margin-top: 40px; }
 
-.mailinglist-small input {
+.icon-envelope2 input {
   border: 1px solid #DDD;
   padding: 6px;
   border-radius: 2px;
@@ -1220,7 +1223,7 @@ nav.tn-nav-wrap {
   width: 100px;
   text-align: right; }
 
-.mailinglist-small input:focus {
+.icon-envelope2 input:focus {
   border: 1px solid #999; }
 
 @media screen and (max-width: 780px) {
@@ -1246,7 +1249,7 @@ nav.tn-nav-wrap {
     position: absolute;
     background-color: #f0f0f0;
     height: 2000px; } }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 20px) {
   html, body {
     height: auto; }
 
@@ -1262,11 +1265,11 @@ nav.tn-nav-wrap {
     width: 100%;
     text-align: center; }
 
-  .home header .icon-tn-logo {
+  .home header .icon-logo {
     height: 60px;
     font-size: 90px;
     width: auto;
-    padding: 35px;
+    padding: 50px;
     float: left;
     margin: 0;
     position: relative;
@@ -1304,7 +1307,7 @@ nav.tn-nav-wrap {
     padding: 10px;
     display: inline-block; }
 
-  .home header nav span.icon-caret-left {
+  .home header nav span.icon-diamonds {
     display: none; }
 
   .home header .elsewheres {
@@ -1313,10 +1316,10 @@ nav.tn-nav-wrap {
     right: auto;
     padding-bottom: 20px; }
 
-  .mailinglist-small {
+  .icon-envelope2 {
     margin: 0; }
 
-  .mailinglist-small input {
+  .icon-envelope2 input {
     width: 240px;
     margin: 0;
     text-align: center;
@@ -1396,7 +1399,7 @@ nav.tn-nav-wrap {
   h1.name {
     font-size: 60px; }
 
-  .home header .mailinglist-small input[type="email"] {
+  .home header .icon-envelope2 input[type="email"] {
     width: 100%;
     text-align: left;
     padding-left: 30px;
