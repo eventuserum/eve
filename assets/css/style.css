@@ -361,38 +361,43 @@ input {
   -webkit-appearance: none; }
 
 .home {
-  background-color: #EBEBEB; }
+  background-color: #EBEBEB;
+ }
   .home header {
-    background-color: #fff;
     position: fixed;
+    width: 100%;
+    background-color: #fff;
     top: 0px;
     bottom: 0px;
     left: 0px;
-    width: 195px;
+    height: 75px;
     text-align: right;
     z-index: 3; }
     .home header .icon-logo {
-      display: block;
+      display: flex;
       margin-bottom: 30px;
-      text-align: center;
-      font-size: 130px;
+      text-align: right;
+      font-size: 70px;
       line-height: 1;
-      color: #000; }
+      color: #000;
+      padding-top: 2px;
+      padding-left: 75px; }
     .home header .main-blurb {
       font-family: Georgia, Cambria, "Times New Roman", Times, serif;
       font-style: italic;
+      text-align: center;
       font-size: 18px;
-      line-height: 1.3;
-      margin-right: 30px;
-      margin-left: 20px;
+      margin-top: -75px;
       color: #999;
-      margin-bottom: 30px; }
+      margin-bottom: -43px; }
       .home header .main-blurb .icon-quotes-left {
         font-size: 12px;
         vertical-align: text-top;
         color: #bbb; }
     .home header nav {
-      position: relative; }
+      list-style-type: none;
+      display: inline; 
+    }
       .home header nav .icon-diamonds {
         position: absolute;
         top: 3px;
@@ -401,7 +406,8 @@ input {
         -moz-transition: all 0.15s ease-out 0s;
         transition: all 0.15s ease-out 0s; }
     .home header ul {
-      list-style: none; }
+      list-style-type: none; 
+      display: inline-flex;}
     .home header li {
       padding: 3px 30px 3px 0; }
       .home header li a {
@@ -413,10 +419,7 @@ input {
         color: #444; }
     .home header .elsewheres {
       list-style: none;
-      margin: 0;
-      position: absolute;
-      right: 30px;
-      bottom: 10px;
+      position: inherit;
       font-size: 11px; }
       .home header .elsewheres a {
         font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
@@ -452,6 +455,8 @@ input {
         display: none; }
 
 .home-wrap {
+  margin-top: 100px;
+  margin-left: -75px;
   position: relative;
   height: 100%;
   width: 100%;
@@ -1261,7 +1266,7 @@ nav.tn-nav-wrap {
     display: none; }
 
   .home header {
-    position: relative;
+    position: fixed;
     width: 100%;
     text-align: center; }
 
