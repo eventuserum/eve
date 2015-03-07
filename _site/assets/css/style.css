@@ -560,7 +560,7 @@ input {
       display: inline-block;
       height: 91px;
       width: 535px;
-      background-image: url("www.livestream.com/filestore/logos/9032cecf-3d7c-e0af-3e39-6842ed3147e3-banner.png");
+      background-image: url("/assets/img/github-pic.png");
       text-indent: -999px;
       overflow: hidden;
       margin: 50px; }
