@@ -551,20 +551,18 @@ input {
     clear: both; }
   .work-wrap h3 {
     text-align: center;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
     clear: both;
     margin: 40px 0; }
     .work-wrap h3 a {
-      display: inline-block;
       height: 91px;
       width: 535px;
       text-indent: -999px;
       overflow: hidden;
       margin: 50px; }
   .work-wrap.dribbble h3 a {
-    background-image: url("/assets/img/dribbble-logo.gif"); }
+    background-image: url("/assets/img/dribbble-logo.gif"); 
+    border-radius: 3px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);}
   .work-wrap.dribbble .shots a {
     box-shadow: 0px 158px 0px #ea4c89 inset, 0px 1px 3px rgba(0, 0, 0, 0.4); }
   .work-wrap .projects a,
