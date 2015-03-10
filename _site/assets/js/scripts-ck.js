@@ -607,15 +607,15 @@ $(function() {
     
     
     function showWork() {
-      /* First, Behance RSS */
-      $(".behance.work-wrap .projects").rss("http://www.behance.net/travisneilson.xml", {
+      /*/* First, Behance RSS *
+      $(".behance.work-wrap .projects").rss("http://www.behance.net/eventuserum.xml", {
           limit: 12,
           ssl: true,
           layoutTemplate: '<div class="project-wrap">{entries}</div>',
           entryTemplate: '<a class="work-unit" href="{url}" target="_blank"><img src="{teaserImageUrl}" />' +
                          '<p>{title}</p><span>view this project on behance.com</span></a>',
           outputMode: 'json_xml'
-        });
+        });*/
       
       /* now, Dribbble API */
       var shotpage = 0;
